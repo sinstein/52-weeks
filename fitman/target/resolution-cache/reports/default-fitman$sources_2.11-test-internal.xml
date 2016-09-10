@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="fitman$sources_2.11"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160910194307"/>
+	<dependencies>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.1.3" status="release" pubdate="20150324163100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="80">
+				<metadata-artifact status="no" details="" size="9808" time="0" location="/Users/sauravkothari/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="280928" time="0" location="/Users/sauravkothari/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar"/>
+					</artifact>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="217957" time="0" location="/Users/sauravkothari/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.1.3" status="release" pubdate="20150324163000" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
+				<metadata-artifact status="no" details="" size="8851" time="0" location="/Users/sauravkothari/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="385981" time="0" location="/Users/sauravkothari/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3-sources.jar"/>
+					</artifact>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="455041" time="0" location="/Users/sauravkothari/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.finatra" name="finatra-slf4j_2.11">
+			<revision name="2.1.2" status="release" pubdate="20151210173604" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="76">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4159" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-slf4j_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finatra/finatra-slf4j_2.11/2.1.2/finatra-slf4j_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="finatra-slf4j_2.11" type="jar" ext="jar" status="no" details="" size="14083" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-slf4j_2.11/jars/finatra-slf4j_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-slf4j_2.11/2.1.2/finatra-slf4j_2.11-2.1.2.jar"/>
+					</artifact>
+					<artifact name="finatra-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3563" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-slf4j_2.11/srcs/finatra-slf4j_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-slf4j_2.11/2.1.2/finatra-slf4j_2.11-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="log4j-over-slf4j">
+			<revision name="1.7.7" status="release" pubdate="20140404164400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="79">
+				<license name="Apache Software Licenses" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4848" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/log4j-over-slf4j/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="log4j-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="31295" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/log4j-over-slf4j/srcs/log4j-over-slf4j-1.7.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7-sources.jar"/>
+					</artifact>
+					<artifact name="log4j-over-slf4j" type="jar" ext="jar" status="no" details="" size="24220" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.7" status="release" pubdate="20140404164400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="78">
+				<metadata-artifact status="no" details="" size="4788" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4806" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/jul-to-slf4j/srcs/jul-to-slf4j-1.7.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7-sources.jar"/>
+					</artifact>
+					<artifact name="jul-to-slf4j" type="jar" ext="jar" status="no" details="" size="4730" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.7" status="release" pubdate="20140404164400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="77">
+				<metadata-artifact status="no" details="" size="4749" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23044" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/jcl-over-slf4j/srcs/jcl-over-slf4j-1.7.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7-sources.jar"/>
+					</artifact>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16519" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.finatra" name="finatra-http_2.11">
+			<revision name="2.1.2" status="release" pubdate="20151210173539" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4182" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-http_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finatra/finatra-http_2.11/2.1.2/finatra-http_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="finatra-http_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="77324" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-http_2.11/srcs/finatra-http_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-http_2.11/2.1.2/finatra-http_2.11-2.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="finatra-http_2.11" type="jar" ext="jar" status="no" details="" size="582292" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-http_2.11/jars/finatra-http_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-http_2.11/2.1.2/finatra-http_2.11-2.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.3.1" status="release" pubdate="20140206223400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-fileupload/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="74">
+				<metadata-artifact status="no" details="" size="10299" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-fileupload/commons-fileupload/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="87367" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-fileupload/commons-fileupload/srcs/commons-fileupload-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-fileupload" type="jar" ext="jar" status="no" details="" size="69002" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-fileupload/commons-fileupload/jars/commons-fileupload-1.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.finatra" name="finatra-jackson_2.11">
+			<revision name="2.1.2" status="release" pubdate="20151210173538" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4529" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-jackson_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finatra/finatra-jackson_2.11/2.1.2/finatra-jackson_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="finatra-jackson_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="59082" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-jackson_2.11/srcs/finatra-jackson_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-jackson_2.11/2.1.2/finatra-jackson_2.11-2.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="finatra-jackson_2.11" type="jar" ext="jar" status="no" details="" size="402196" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-jackson_2.11/jars/finatra-jackson_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-jackson_2.11/2.1.2/finatra-jackson_2.11-2.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.finatra" name="finatra-scalap-compiler-deps_2.11">
+			<revision name="2.0.0" status="release" pubdate="20150902061843" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-scalap-compiler-deps_2.11/ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finatra/finatra-scalap-compiler-deps_2.11/2.0.0/finatra-scalap-compiler-deps_2.11-2.0.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="finatra-scalap-compiler-deps_2.11" type="jar" ext="jar" status="no" details="" size="127168" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-scalap-compiler-deps_2.11/jars/finatra-scalap-compiler-deps_2.11-2.0.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-scalap-compiler-deps_2.11/2.0.0/finatra-scalap-compiler-deps_2.11-2.0.0.jar"/>
+					</artifact>
+					<artifact name="finatra-scalap-compiler-deps_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11321" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-scalap-compiler-deps_2.11/srcs/finatra-scalap-compiler-deps_2.11-2.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-scalap-compiler-deps_2.11/2.0.0/finatra-scalap-compiler-deps_2.11-2.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.7" status="release" pubdate="20150623014700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="73">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4576443" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="561516" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.11.7" status="release" pubdate="20150623014800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="71">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2514" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scalap/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scalap/2.11.7/scalap-2.11.7.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalap" type="jar" ext="jar" status="no" details="" size="790235" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scalap/2.11.7/scalap-2.11.7.jar"/>
+					</artifact>
+					<artifact name="scalap" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37052" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scalap/srcs/scalap-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scalap/2.11.7/scalap-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.finatra" name="finatra-utils_2.11">
+			<revision name="2.1.2" status="release" pubdate="20151210173537" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4785" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-utils_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finatra/finatra-utils_2.11/2.1.2/finatra-utils_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="finatra-utils_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18713" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-utils_2.11/srcs/finatra-utils_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-utils_2.11/2.1.2/finatra-utils_2.11-2.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="finatra-utils_2.11" type="jar" ext="jar" status="no" details="" size="227695" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.finatra/finatra-utils_2.11/jars/finatra-utils_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finatra/finatra-utils_2.11/2.1.2/finatra-utils_2.11-2.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.nscala-time" name="nscala-time_2.11">
+			<revision name="1.6.0" status="release" pubdate="20141120095100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/nscala-time/nscala-time" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="69">
+				<license name="Apache" url="http://www.opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="2818" time="0" location="/Users/sauravkothari/.ivy2/cache/com.github.nscala-time/nscala-time_2.11/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/nscala-time/nscala-time_2.11/1.6.0/nscala-time_2.11-1.6.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="nscala-time_2.11" type="jar" ext="jar" status="no" details="" size="190871" time="0" location="/Users/sauravkothari/.ivy2/cache/com.github.nscala-time/nscala-time_2.11/jars/nscala-time_2.11-1.6.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/nscala-time/nscala-time_2.11/1.6.0/nscala-time_2.11-1.6.0.jar"/>
+					</artifact>
+					<artifact name="nscala-time_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="39138" time="0" location="/Users/sauravkothari/.ivy2/cache/com.github.nscala-time/nscala-time_2.11/srcs/nscala-time_2.11-1.6.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/nscala-time/nscala-time_2.11/1.6.0/nscala-time_2.11-1.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.inject" name="inject-server_2.11">
+			<revision name="2.1.2" status="release" pubdate="20151210173556" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3906" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-server_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject/inject-server_2.11/2.1.2/inject-server_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-server_2.11" type="jar" ext="jar" status="no" details="" size="34509" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-server_2.11/jars/inject-server_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject/inject-server_2.11/2.1.2/inject-server_2.11-2.1.2.jar"/>
+					</artifact>
+					<artifact name="inject-server_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4559" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-server_2.11/srcs/inject-server_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject/inject-server_2.11/2.1.2/inject-server_2.11-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="twitter-server_2.11">
+			<revision name="1.16.0" status="release" pubdate="20151205034555" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/twitter-server" extra-info.apiURL="https://twitter.github.io/twitter-server/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="63">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6043" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/twitter-server_2.11/ivy-1.16.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/twitter-server_2.11/1.16.0/twitter-server_2.11-1.16.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.16.0" rev-constraint-default="1.16.0" rev-constraint-dynamic="1.16.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/twitter-server/docs/"/>
+				<artifacts>
+					<artifact name="twitter-server_2.11" type="jar" ext="jar" status="no" details="" size="795254" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/twitter-server_2.11/jars/twitter-server_2.11-1.16.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/twitter-server_2.11/1.16.0/twitter-server_2.11-1.16.0.jar"/>
+					</artifact>
+					<artifact name="twitter-server_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="263853" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/twitter-server_2.11/srcs/twitter-server_2.11-1.16.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/twitter-server_2.11/1.16.0/twitter-server_2.11-1.16.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.5" status="release" pubdate="20150725083253" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="68">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3011" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109244" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.11" type="jar" ext="jar" status="no" details="" size="671138" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/jars/scala-xml_2.11-1.0.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-zipkin_2.11">
+			<revision name="6.31.0" status="release" pubdate="20151205225641" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="65">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="11333" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-zipkin_2.11/ivy-6.31.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-zipkin_2.11/6.31.0/finagle-zipkin_2.11-6.31.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.31.0" rev-constraint-default="6.31.0" rev-constraint-dynamic="6.31.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-zipkin_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13994" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-zipkin_2.11/srcs/finagle-zipkin_2.11-6.31.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-zipkin_2.11/6.31.0/finagle-zipkin_2.11-6.31.0-sources.jar"/>
+					</artifact>
+					<artifact name="finagle-zipkin_2.11" type="jar" ext="jar" status="no" details="" size="205795" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-zipkin_2.11/jars/finagle-zipkin_2.11-6.31.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-zipkin_2.11/6.31.0/finagle-zipkin_2.11-6.31.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-thrift_2.11">
+			<revision name="6.31.0" status="release" pubdate="20151204140732" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="66">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="8434" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-thrift_2.11/ivy-6.31.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-thrift_2.11/6.31.0/finagle-thrift_2.11-6.31.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.31.0" rev-constraint-default="6.31.0" rev-constraint-dynamic="6.31.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-thrift_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73782" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-thrift_2.11/srcs/finagle-thrift_2.11-6.31.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-thrift_2.11/6.31.0/finagle-thrift_2.11-6.31.0-sources.jar"/>
+					</artifact>
+					<artifact name="finagle-thrift_2.11" type="jar" ext="jar" status="no" details="" size="725817" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-thrift_2.11/jars/finagle-thrift_2.11-6.31.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-thrift_2.11/6.31.0/finagle-thrift_2.11-6.31.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="scrooge-core_2.11">
+			<revision name="4.3.0" status="release" pubdate="20151205234942" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/scrooge" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="67">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3382" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/scrooge-core_2.11/ivy-4.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/scrooge-core_2.11/4.3.0/scrooge-core_2.11-4.3.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.3.0" rev-constraint-default="4.3.0" rev-constraint-dynamic="4.3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scrooge-core_2.11" type="jar" ext="jar" status="no" details="" size="61203" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/scrooge-core_2.11/jars/scrooge-core_2.11-4.3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/scrooge-core_2.11/4.3.0/scrooge-core_2.11-4.3.0.jar"/>
+					</artifact>
+					<artifact name="scrooge-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13058" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/scrooge-core_2.11/srcs/scrooge-core_2.11-4.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/scrooge-core_2.11/4.3.0/scrooge-core_2.11-4.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.spullara.mustache.java" name="compiler">
+			<revision name="0.8.18" status="release" pubdate="20150826123843" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/spullara/mustache.java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3478" time="0" location="/Users/sauravkothari/.ivy2/cache/com.github.spullara.mustache.java/compiler/ivy-0.8.18.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.8.18" rev-constraint-default="0.8.18" rev-constraint-dynamic="0.8.18" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="56054" time="0" location="/Users/sauravkothari/.ivy2/cache/com.github.spullara.mustache.java/compiler/srcs/compiler-0.8.18-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18-sources.jar"/>
+					</artifact>
+					<artifact name="compiler" type="jar" ext="jar" status="no" details="" size="116006" time="0" location="/Users/sauravkothari/.ivy2/cache/com.github.spullara.mustache.java/compiler/jars/compiler-0.8.18.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/spullara/mustache/java/compiler/0.8.18/compiler-0.8.18.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-stats_2.11">
+			<revision name="6.31.0" status="release" pubdate="20151205044239" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="10906" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-stats_2.11/ivy-6.31.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-stats_2.11/6.31.0/finagle-stats_2.11-6.31.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.31.0" rev-constraint-default="6.31.0" rev-constraint-dynamic="6.31.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-stats_2.11" type="jar" ext="jar" status="no" details="" size="140573" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-stats_2.11/jars/finagle-stats_2.11-6.31.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-stats_2.11/6.31.0/finagle-stats_2.11-6.31.0.jar"/>
+					</artifact>
+					<artifact name="finagle-stats_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18339" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-stats_2.11/srcs/finagle-stats_2.11-6.31.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-stats_2.11/6.31.0/finagle-stats_2.11-6.31.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.11">
+			<revision name="2.4.4" status="release" pubdate="20141202101100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4360" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.4.4/jackson-module-scala_2.11-2.4.4.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-module-scala_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53480" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/srcs/jackson-module-scala_2.11-2.4.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.4.4/jackson-module-scala_2.11-2.4.4-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-module-scala_2.11" type="jar" ext="jar" status="no" details="" size="538018" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/jars/jackson-module-scala_2.11-2.4.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.4.4/jackson-module-scala_2.11-2.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-joda">
+			<revision name="2.4.4" status="release" pubdate="20141125115400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleJoda" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="70">
+				<metadata-artifact status="no" details="" size="6959" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-joda/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.4.4/jackson-datatype-joda-2.4.4.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-datatype-joda" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="29421" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-joda/srcs/jackson-datatype-joda-2.4.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.4.4/jackson-datatype-joda-2.4.4-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-datatype-joda" type="jar" ext="jar" status="no" details="" size="56267" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-joda/jars/jackson-datatype-joda-2.4.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.4.4/jackson-datatype-joda-2.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.6" status="release" pubdate="20131009092654" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="62">
+				<metadata-artifact status="no" details="" size="4124" time="0" location="/Users/sauravkothari/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="paranamer" type="jar" ext="jar" status="no" details="" size="32806" time="0" location="/Users/sauravkothari/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar"/>
+					</artifact>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26517" time="0" location="/Users/sauravkothari/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.4.4" status="release" pubdate="20141125075900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="60">
+				<metadata-artifact status="no" details="" size="8211" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="772236" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.4.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="1076926" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.4.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.4.4" status="release" pubdate="20141125074700" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="59">
+				<metadata-artifact status="no" details="" size="6430" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="225302" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.4.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="235527" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.4.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-events_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151205044241" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="58">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3638" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-events_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-events_2.11/6.30.0/util-events_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-events_2.11" type="jar" ext="jar" status="no" details="" size="33195" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-events_2.11/jars/util-events_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-events_2.11/6.30.0/util-events_2.11-6.30.0.jar"/>
+					</artifact>
+					<artifact name="util-events_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6044" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-events_2.11/srcs/util-events_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-events_2.11/6.30.0/util-events_2.11-6.30.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="metrics">
+			<revision name="0.0.37" status="release" pubdate="20160902044536" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+				<metadata-artifact status="no" details="" size="3539" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/metrics/ivy-0.0.37.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/metrics/0.0.37/metrics-0.0.37.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.37" rev-constraint-default="0.0.37" rev-constraint-dynamic="0.0.37" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="metrics" type="jar" ext="jar" status="no" details="" size="48465" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/metrics/jars/metrics-0.0.37.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/metrics/0.0.37/metrics-0.0.37.jar"/>
+					</artifact>
+					<artifact name="metrics" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25400" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/metrics/srcs/metrics-0.0.37-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/metrics/0.0.37/metrics-0.0.37-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="stats-util">
+			<revision name="0.0.58" status="release" pubdate="20160902071341" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="48">
+				<metadata-artifact status="no" details="" size="2946" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stats-util/ivy-0.0.58.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/stats-util/0.0.58/stats-util-0.0.58.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.58" rev-constraint-default="0.0.58" rev-constraint-dynamic="0.0.58" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="stats-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24940" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stats-util/srcs/stats-util-0.0.58-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stats-util/0.0.58/stats-util-0.0.58-sources.jar"/>
+					</artifact>
+					<artifact name="stats-util" type="jar" ext="jar" status="no" details="" size="28602" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stats-util/jars/stats-util-0.0.58.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stats-util/0.0.58/stats-util-0.0.58.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="util">
+			<revision name="0.0.120" status="release" pubdate="20160902071346" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">
+				<metadata-artifact status="no" details="" size="3848" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util/ivy-0.0.120.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/util/0.0.120/util-0.0.120.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.120" rev-constraint-default="0.0.120" rev-constraint-dynamic="0.0.120" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41430" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util/srcs/util-0.0.120-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util/0.0.120/util-0.0.120-sources.jar"/>
+					</artifact>
+					<artifact name="util" type="jar" ext="jar" status="no" details="" size="58162" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util/jars/util-0.0.120.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util/0.0.120/util-0.0.120.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="stats">
+			<revision name="0.0.114" status="release" pubdate="20160902043538" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
+				<metadata-artifact status="no" details="" size="3842" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stats/ivy-0.0.114.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/stats/0.0.114/stats-0.0.114.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.114" rev-constraint-default="0.0.114" rev-constraint-dynamic="0.0.114" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="stats" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22920" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stats/srcs/stats-0.0.114-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stats/0.0.114/stats-0.0.114-sources.jar"/>
+					</artifact>
+					<artifact name="stats" type="jar" ext="jar" status="no" details="" size="44147" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stats/jars/stats-0.0.114.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stats/0.0.114/stats-0.0.114.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="util-sampler">
+			<revision name="0.0.77" status="release" pubdate="20160902065658" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="57">
+				<metadata-artifact status="no" details="" size="2683" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util-sampler/ivy-0.0.77.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/util-sampler/0.0.77/util-sampler-0.0.77.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.77" rev-constraint-default="0.0.77" rev-constraint-dynamic="0.0.77" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="util-sampler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2592" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util-sampler/srcs/util-sampler-0.0.77-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util-sampler/0.0.77/util-sampler-0.0.77-sources.jar"/>
+					</artifact>
+					<artifact name="util-sampler" type="jar" ext="jar" status="no" details="" size="2425" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util-sampler/jars/util-sampler-0.0.77.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util-sampler/0.0.77/util-sampler-0.0.77.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="application-action">
+			<revision name="0.0.89" status="release" pubdate="20160902044552" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="56">
+				<metadata-artifact status="no" details="" size="2962" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/application-action/ivy-0.0.89.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/application-action/0.0.89/application-action-0.0.89.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.89" rev-constraint-default="0.0.89" rev-constraint-dynamic="0.0.89" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="application-action" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7447" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/application-action/srcs/application-action-0.0.89-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/application-action/0.0.89/application-action-0.0.89-sources.jar"/>
+					</artifact>
+					<artifact name="application-action" type="jar" ext="jar" status="no" details="" size="6989" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/application-action/jars/application-action-0.0.89.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/application-action/0.0.89/application-action-0.0.89.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="stats-provider">
+			<revision name="0.0.92" status="release" pubdate="20160902044558" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
+				<metadata-artifact status="no" details="" size="2673" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stats-provider/ivy-0.0.92.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/stats-provider/0.0.92/stats-provider-0.0.92.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.92" rev-constraint-default="0.0.92" rev-constraint-dynamic="0.0.92" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="stats-provider" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2831" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stats-provider/srcs/stats-provider-0.0.92-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stats-provider/0.0.92/stats-provider-0.0.92-sources.jar"/>
+					</artifact>
+					<artifact name="stats-provider" type="jar" ext="jar" status="no" details="" size="2555" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stats-provider/jars/stats-provider-0.0.92.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stats-provider/0.0.92/stats-provider-0.0.92.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="stat-registry">
+			<revision name="0.0.57" status="release" pubdate="20160902065724" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="53">
+				<metadata-artifact status="no" details="" size="2381" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stat-registry/ivy-0.0.57.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/stat-registry/0.0.57/stat-registry-0.0.57.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.57" rev-constraint-default="0.0.57" rev-constraint-dynamic="0.0.57" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="stat-registry" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3231" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stat-registry/srcs/stat-registry-0.0.57-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stat-registry/0.0.57/stat-registry-0.0.57-sources.jar"/>
+					</artifact>
+					<artifact name="stat-registry" type="jar" ext="jar" status="no" details="" size="2364" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stat-registry/jars/stat-registry-0.0.57.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stat-registry/0.0.57/stat-registry-0.0.57.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="stat">
+			<revision name="0.0.72" status="release" pubdate="20160902050908" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
+				<metadata-artifact status="no" details="" size="2188" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stat/ivy-0.0.72.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/stat/0.0.72/stat-0.0.72.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.72" rev-constraint-default="0.0.72" rev-constraint-dynamic="0.0.72" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="stat" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2377" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stat/srcs/stat-0.0.72-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stat/0.0.72/stat-0.0.72-sources.jar"/>
+					</artifact>
+					<artifact name="stat" type="jar" ext="jar" status="no" details="" size="1914" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/stat/jars/stat-0.0.72.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/stat/0.0.72/stat-0.0.72.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="jdk-logging">
+			<revision name="0.0.79" status="release" pubdate="20160902043433" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="51">
+				<metadata-artifact status="no" details="" size="2525" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/jdk-logging/ivy-0.0.79.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/jdk-logging/0.0.79/jdk-logging-0.0.79.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.79" rev-constraint-default="0.0.79" rev-constraint-dynamic="0.0.79" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jdk-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4149" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/jdk-logging/srcs/jdk-logging-0.0.79-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/jdk-logging/0.0.79/jdk-logging-0.0.79-sources.jar"/>
+					</artifact>
+					<artifact name="jdk-logging" type="jar" ext="jar" status="no" details="" size="3394" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/jdk-logging/jars/jdk-logging-0.0.79.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/jdk-logging/0.0.79/jdk-logging-0.0.79.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="util-executor-service-shutdown">
+			<revision name="0.0.66" status="release" pubdate="20160902072504" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="50">
+				<metadata-artifact status="no" details="" size="2993" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util-executor-service-shutdown/ivy-0.0.66.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/util-executor-service-shutdown/0.0.66/util-executor-service-shutdown-0.0.66.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.66" rev-constraint-default="0.0.66" rev-constraint-dynamic="0.0.66" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="util-executor-service-shutdown" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3278" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util-executor-service-shutdown/srcs/util-executor-service-shutdown-0.0.66-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util-executor-service-shutdown/0.0.66/util-executor-service-shutdown-0.0.66-sources.jar"/>
+					</artifact>
+					<artifact name="util-executor-service-shutdown" type="jar" ext="jar" status="no" details="" size="3058" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util-executor-service-shutdown/jars/util-executor-service-shutdown-0.0.66.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util-executor-service-shutdown/0.0.66/util-executor-service-shutdown-0.0.66.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="base">
+			<revision name="0.0.114" status="release" pubdate="20160902050905" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
+				<metadata-artifact status="no" details="" size="2955" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/base/ivy-0.0.114.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/base/0.0.114/base-0.0.114.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.114" rev-constraint-default="0.0.114" rev-constraint-dynamic="0.0.114" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="base" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21934" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/base/srcs/base-0.0.114-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/base/0.0.114/base-0.0.114-sources.jar"/>
+					</artifact>
+					<artifact name="base" type="jar" ext="jar" status="no" details="" size="28753" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/base/jars/base-0.0.114.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/base/0.0.114/base-0.0.114.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="util-system-mocks">
+			<revision name="0.0.103" status="release" pubdate="20160902065721" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="47">
+				<metadata-artifact status="no" details="" size="2538" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util-system-mocks/ivy-0.0.103.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/util-system-mocks/0.0.103/util-system-mocks-0.0.103.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.103" rev-constraint-default="0.0.103" rev-constraint-dynamic="0.0.103" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="util-system-mocks" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4367" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util-system-mocks/srcs/util-system-mocks-0.0.103-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util-system-mocks/0.0.103/util-system-mocks-0.0.103-sources.jar"/>
+					</artifact>
+					<artifact name="util-system-mocks" type="jar" ext="jar" status="no" details="" size="4550" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/util-system-mocks/jars/util-system-mocks-0.0.103.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/util-system-mocks/0.0.103/util-system-mocks-0.0.103.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="quantity">
+			<revision name="0.0.98" status="release" pubdate="20160902074247" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
+				<metadata-artifact status="no" details="" size="2810" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/quantity/ivy-0.0.98.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/quantity/0.0.98/quantity-0.0.98.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.98" rev-constraint-default="0.0.98" rev-constraint-dynamic="0.0.98" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="quantity" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6345" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/quantity/srcs/quantity-0.0.98-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/quantity/0.0.98/quantity-0.0.98-sources.jar"/>
+					</artifact>
+					<artifact name="quantity" type="jar" ext="jar" status="no" details="" size="9375" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/quantity/jars/quantity-0.0.98.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/quantity/0.0.98/quantity-0.0.98.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.common" name="collections">
+			<revision name="0.0.109" status="release" pubdate="20160902120228" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="46">
+				<metadata-artifact status="no" details="" size="2667" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/collections/ivy-0.0.109.xml" searched="false" origin-is-local="false" origin-location="https://maven.twttr.com/com/twitter/common/collections/0.0.109/collections-0.0.109.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.109" rev-constraint-default="0.0.109" rev-constraint-dynamic="0.0.109" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="collections" type="jar" ext="jar" status="no" details="" size="12828" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/collections/jars/collections-0.0.109.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/collections/0.0.109/collections-0.0.109.jar"/>
+					</artifact>
+					<artifact name="collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8596" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.common/collections/srcs/collections-0.0.109-sources.jar">
+						<origin-location is-local="false" location="https://maven.twttr.com/com/twitter/common/collections/0.0.109/collections-0.0.109-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-http_2.11">
+			<revision name="6.31.0" status="release" pubdate="20151204140810" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="8027" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-http_2.11/ivy-6.31.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-http_2.11/6.31.0/finagle-http_2.11-6.31.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.31.0" rev-constraint-default="6.31.0" rev-constraint-dynamic="6.31.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-http_2.11" type="jar" ext="jar" status="no" details="" size="742798" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-http_2.11/jars/finagle-http_2.11-6.31.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-http_2.11/6.31.0/finagle-http_2.11-6.31.0.jar"/>
+					</artifact>
+					<artifact name="finagle-http_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="77243" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-http_2.11/srcs/finagle-http_2.11-6.31.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-http_2.11/6.31.0/finagle-http_2.11-6.31.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110117035147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
+				<metadata-artifact status="no" details="" size="6396" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.inject" name="inject-modules_2.11">
+			<revision name="2.1.2" status="release" pubdate="20151210173554" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3749" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-modules_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject/inject-modules_2.11/2.1.2/inject-modules_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-modules_2.11" type="jar" ext="jar" status="no" details="" size="3087" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-modules_2.11/jars/inject-modules_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject/inject-modules_2.11/2.1.2/inject-modules_2.11-2.1.2.jar"/>
+					</artifact>
+					<artifact name="inject-modules_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1042" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-modules_2.11/srcs/inject-modules_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject/inject-modules_2.11/2.1.2/inject-modules_2.11-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.inject" name="inject-request-scope_2.11">
+			<revision name="2.1.2" status="release" pubdate="20151210173542" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3750" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-request-scope_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject/inject-request-scope_2.11/2.1.2/inject-request-scope_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-request-scope_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4383" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-request-scope_2.11/srcs/inject-request-scope_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject/inject-request-scope_2.11/2.1.2/inject-request-scope_2.11-2.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="inject-request-scope_2.11" type="jar" ext="jar" status="no" details="" size="17461" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-request-scope_2.11/jars/inject-request-scope_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject/inject-request-scope_2.11/2.1.2/inject-request-scope_2.11-2.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-core_2.11">
+			<revision name="6.31.0" status="release" pubdate="20151204140730" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="11615" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-core_2.11/ivy-6.31.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/finagle-core_2.11/6.31.0/finagle-core_2.11-6.31.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.31.0" rev-constraint-default="6.31.0" rev-constraint-dynamic="6.31.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finagle/docs/"/>
+				<artifacts>
+					<artifact name="finagle-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="294844" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-core_2.11/srcs/finagle-core_2.11-6.31.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-core_2.11/6.31.0/finagle-core_2.11-6.31.0-sources.jar"/>
+					</artifact>
+					<artifact name="finagle-core_2.11" type="jar" ext="jar" status="no" details="" size="2955378" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/finagle-core_2.11/jars/finagle-core_2.11-6.31.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/finagle-core_2.11/6.31.0/finagle-core_2.11-6.31.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-logging_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140749" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3932" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-logging_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-logging_2.11/6.30.0/util-logging_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-logging_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="31314" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-logging_2.11/srcs/util-logging_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-logging_2.11/6.30.0/util-logging_2.11-6.30.0-sources.jar"/>
+					</artifact>
+					<artifact name="util-logging_2.11" type="jar" ext="jar" status="no" details="" size="243381" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-logging_2.11/jars/util-logging_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-logging_2.11/6.30.0/util-logging_2.11-6.30.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-stats_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140748" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3781" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-stats_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-stats_2.11/6.30.0/util-stats_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-stats_2.11" type="jar" ext="jar" status="no" details="" size="133732" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-stats_2.11/jars/util-stats_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-stats_2.11/6.30.0/util-stats_2.11-6.30.0.jar"/>
+					</artifact>
+					<artifact name="util-stats_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14102" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-stats_2.11/srcs/util-stats_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-stats_2.11/6.30.0/util-stats_2.11-6.30.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-lint_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140750" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3488" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-lint_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-lint_2.11/6.30.0/util-lint_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-lint_2.11" type="jar" ext="jar" status="no" details="" size="14362" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-lint_2.11/jars/util-lint_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-lint_2.11/6.30.0/util-lint_2.11-6.30.0.jar"/>
+					</artifact>
+					<artifact name="util-lint_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2760" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-lint_2.11/srcs/util-lint_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-lint_2.11/6.30.0/util-lint_2.11-6.30.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-jvm_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140751" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3896" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-jvm_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-jvm_2.11/6.30.0/util-jvm_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-jvm_2.11" type="jar" ext="jar" status="no" details="" size="170474" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-jvm_2.11/jars/util-jvm_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-jvm_2.11/6.30.0/util-jvm_2.11-6.30.0.jar"/>
+					</artifact>
+					<artifact name="util-jvm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15869" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-jvm_2.11/srcs/util-jvm_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-jvm_2.11/6.30.0/util-jvm_2.11-6.30.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-hashing_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140752" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3865" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-hashing_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-hashing_2.11/6.30.0/util-hashing_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-hashing_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5660" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-hashing_2.11/srcs/util-hashing_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-hashing_2.11/6.30.0/util-hashing_2.11-6.30.0-sources.jar"/>
+					</artifact>
+					<artifact name="util-hashing_2.11" type="jar" ext="jar" status="no" details="" size="53278" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-hashing_2.11/jars/util-hashing_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-hashing_2.11/6.30.0/util-hashing_2.11-6.30.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-collection_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140753" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4363" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-collection_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-collection_2.11/6.30.0/util-collection_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-collection_2.11" type="jar" ext="jar" status="no" details="" size="85701" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-collection_2.11/jars/util-collection_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-collection_2.11/6.30.0/util-collection_2.11-6.30.0.jar"/>
+					</artifact>
+					<artifact name="util-collection_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8002" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-collection_2.11/srcs/util-collection_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-collection_2.11/6.30.0/util-collection_2.11-6.30.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080831171528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+				<metadata-artifact status="no" details="" size="4590" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="641582" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-codec_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140738" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3779" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-codec_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-codec_2.11/6.30.0/util-codec_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-codec_2.11" type="jar" ext="jar" status="no" details="" size="9941" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-codec_2.11/jars/util-codec_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-codec_2.11/6.30.0/util-codec_2.11-6.30.0.jar"/>
+					</artifact>
+					<artifact name="util-codec_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1519" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-codec_2.11/srcs/util-codec_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-codec_2.11/6.30.0/util-codec_2.11-6.30.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.9" status="release" pubdate="20131221092700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<metadata-artifact status="no" details="" size="9856" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-codec/commons-codec/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.9/commons-codec-1.9.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="263965" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.9/commons-codec-1.9.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278370" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.9-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-cache_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140740" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3926" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-cache_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-cache_2.11/6.30.0/util-cache_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-cache_2.11" type="jar" ext="jar" status="no" details="" size="30293" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-cache_2.11/jars/util-cache_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-cache_2.11/6.30.0/util-cache_2.11-6.30.0.jar"/>
+					</artifact>
+					<artifact name="util-cache_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7403" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-cache_2.11/srcs/util-cache_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-cache_2.11/6.30.0/util-cache_2.11-6.30.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.1.Final" status="release" pubdate="20150324002400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7071" time="0" location="/Users/sauravkothari/.ivy2/cache/io.netty/netty/ivy-3.10.1.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.10.1.Final/netty-3.10.1.Final.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.10.1.Final" rev-constraint-default="3.10.1.Final" rev-constraint-dynamic="3.10.1.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1131956" time="0" location="/Users/sauravkothari/.ivy2/cache/io.netty/netty/srcs/netty-3.10.1.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.1.Final/netty-3.10.1.Final-sources.jar"/>
+					</artifact>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1308662" time="0" location="/Users/sauravkothari/.ivy2/cache/io.netty/netty/jars/netty-3.10.1.Final.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.1.Final/netty-3.10.1.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="servlet-api">
+			<revision name="2.5" status="release" pubdate="20080831171538" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="75">
+				<metadata-artifact status="no" details="" size="2194" time="0" location="/Users/sauravkothari/.ivy2/cache/javax.servlet/servlet-api/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="158114" time="0" location="/Users/sauravkothari/.ivy2/cache/javax.servlet/servlet-api/srcs/servlet-api-2.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+					</artifact>
+					<artifact name="servlet-api" type="jar" ext="jar" status="no" details="" size="105112" time="0" location="/Users/sauravkothari/.ivy2/cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.inject" name="inject-app_2.11">
+			<revision name="2.1.2" status="release" pubdate="20151210173555" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3588" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-app_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject/inject-app_2.11/2.1.2/inject-app_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-app_2.11" type="jar" ext="jar" status="no" details="" size="53281" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-app_2.11/jars/inject-app_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject/inject-app_2.11/2.1.2/inject-app_2.11-2.1.2.jar"/>
+					</artifact>
+					<artifact name="inject-app_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6879" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-app_2.11/srcs/inject-app_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject/inject-app_2.11/2.1.2/inject-app_2.11-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter.inject" name="inject-core_2.11">
+			<revision name="2.1.2" status="release" pubdate="20151210173540" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finatra" extra-info.apiURL="https://twitter.github.io/finatra/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5191" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-core_2.11/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/inject/inject-core_2.11/2.1.2/inject-core_2.11-2.1.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/finatra/docs/"/>
+				<artifacts>
+					<artifact name="inject-core_2.11" type="jar" ext="jar" status="no" details="" size="54202" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-core_2.11/jars/inject-core_2.11-2.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject/inject-core_2.11/2.1.2/inject-core_2.11-2.1.2.jar"/>
+					</artifact>
+					<artifact name="inject-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7100" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter.inject/inject-core_2.11/srcs/inject-core_2.11-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/inject/inject-core_2.11/2.1.2/inject-core_2.11-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject.extensions" name="guice-testlib">
+			<revision name="4.0" status="release" pubdate="20150429021000" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
+				<metadata-artifact status="no" details="" size="5513" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject.extensions/guice-testlib/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-testlib/4.0/guice-testlib-4.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guice-testlib" type="jar" ext="jar" status="no" details="" size="13405" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject.extensions/guice-testlib/jars/guice-testlib-4.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/extensions/guice-testlib/4.0/guice-testlib-4.0.jar"/>
+					</artifact>
+					<artifact name="guice-testlib" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11183" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject.extensions/guice-testlib/srcs/guice-testlib-4.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/extensions/guice-testlib/4.0/guice-testlib-4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.clapper" name="grizzled-slf4j_2.11">
+			<revision name="1.0.2" status="release" pubdate="20140427195710" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/bmc/grizzled-slf4j/#readme" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="BSD" url="http://software.clapper.org/grizzled-slf4j/license.html"/>
+				<metadata-artifact status="no" details="" size="2856" time="0" location="/Users/sauravkothari/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/clapper/grizzled-slf4j_2.11/1.0.2/grizzled-slf4j_2.11-1.0.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="grizzled-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2881" time="0" location="/Users/sauravkothari/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/srcs/grizzled-slf4j_2.11-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/clapper/grizzled-slf4j_2.11/1.0.2/grizzled-slf4j_2.11-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="grizzled-slf4j_2.11" type="jar" ext="jar" status="no" details="" size="6427" time="0" location="/Users/sauravkothari/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/jars/grizzled-slf4j_2.11-1.0.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/clapper/grizzled-slf4j_2.11/1.0.2/grizzled-slf4j_2.11-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404164200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<metadata-artifact status="no" details="" size="4573" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49406" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="/Users/sauravkothari/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.codingwell" name="scala-guice_2.11">
+			<revision name="4.0.0" status="release" pubdate="20150526072900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/codingwell/scala-guice" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3267" time="0" location="/Users/sauravkothari/.ivy2/cache/net.codingwell/scala-guice_2.11/ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/codingwell/scala-guice_2.11/4.0.0/scala-guice_2.11-4.0.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-guice_2.11" type="jar" ext="jar" status="no" details="" size="98344" time="0" location="/Users/sauravkothari/.ivy2/cache/net.codingwell/scala-guice_2.11/jars/scala-guice_2.11-4.0.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/codingwell/scala-guice_2.11/4.0.0/scala-guice_2.11-4.0.0.jar"/>
+					</artifact>
+					<artifact name="scala-guice_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18201" time="0" location="/Users/sauravkothari/.ivy2/cache/net.codingwell/scala-guice_2.11/srcs/scala-guice_2.11-4.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/codingwell/scala-guice_2.11/4.0.0/scala-guice_2.11-4.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.5" status="release" pubdate="20141003122600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6459" time="0" location="/Users/sauravkothari/.ivy2/cache/joda-time/joda-time/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/joda-time/joda-time/2.5/joda-time-2.5.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="749025" time="0" location="/Users/sauravkothari/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.5/joda-time-2.5-sources.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="588001" time="0" location="/Users/sauravkothari/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.5/joda-time-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.2" status="release" pubdate="20131006230714" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3120" time="0" location="/Users/sauravkothari/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="38460" time="0" location="/Users/sauravkothari/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19105" time="0" location="/Users/sauravkothari/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613035203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<metadata-artifact status="no" details="" size="8463" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246635" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/Users/sauravkothari/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-app_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140731" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3779" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-app_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-app_2.11/6.30.0/util-app_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-app_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14069" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-app_2.11/srcs/util-app_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-app_2.11/6.30.0/util-app_2.11-6.30.0-sources.jar"/>
+					</artifact>
+					<artifact name="util-app_2.11" type="jar" ext="jar" status="no" details="" size="138579" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-app_2.11/jars/util-app_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-app_2.11/6.30.0/util-app_2.11-6.30.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-registry_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140738" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3645" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-registry_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-registry_2.11/6.30.0/util-registry_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-registry_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4349" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-registry_2.11/srcs/util-registry_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-registry_2.11/6.30.0/util-registry_2.11-6.30.0-sources.jar"/>
+					</artifact>
+					<artifact name="util-registry_2.11" type="jar" ext="jar" status="no" details="" size="35331" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-registry_2.11/jars/util-registry_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-registry_2.11/6.30.0/util-registry_2.11-6.30.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-core_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140728" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4195" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-core_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-core_2.11/6.30.0/util-core_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="168072" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-core_2.11/srcs/util-core_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-core_2.11/6.30.0/util-core_2.11-6.30.0-sources.jar"/>
+					</artifact>
+					<artifact name="util-core_2.11" type="jar" ext="jar" status="no" details="" size="1514969" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-core_2.11/jars/util-core_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-core_2.11/6.30.0/util-core_2.11-6.30.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430193700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2803" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42276" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar"/>
+					</artifact>
+					<artifact name="scala-parser-combinators_2.11" type="jar" ext="jar" status="no" details="" size="423753" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/jars/scala-parser-combinators_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="jsr166e">
+			<revision name="1.0.0" status="release" pubdate="20130420033245" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/twitter/jsr166e" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="CC0 1.0 Universal" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2704" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/jsr166e/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/jsr166e/1.0.0/jsr166e-1.0.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsr166e" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7587" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/jsr166e/srcs/jsr166e-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.0.0/jsr166e-1.0.0-sources.jar"/>
+					</artifact>
+					<artifact name="jsr166e" type="jar" ext="jar" status="no" details="" size="9988" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/jsr166e/jars/jsr166e-1.0.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.0.0/jsr166e-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-function_2.11">
+			<revision name="6.30.0" status="release" pubdate="20151204140727" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3500" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-function_2.11/ivy-6.30.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/util-function_2.11/6.30.0/util-function_2.11-6.30.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="6.30.0" rev-constraint-default="6.30.0" rev-constraint-dynamic="6.30.0" callerrev="1.0" extra-info.apiURL="https://twitter.github.io/util/docs/"/>
+				<artifacts>
+					<artifact name="util-function_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2091" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-function_2.11/srcs/util-function_2.11-6.30.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-function_2.11/6.30.0/util-function_2.11-6.30.0-sources.jar"/>
+					</artifact>
+					<artifact name="util-function_2.11" type="jar" ext="jar" status="no" details="" size="2073" time="0" location="/Users/sauravkothari/.ivy2/cache/com.twitter/util-function_2.11/jars/util-function_2.11-6.30.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/util-function_2.11/6.30.0/util-function_2.11-6.30.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest_2.11">
+			<revision name="2.2.4" status="release" pubdate="20150129124600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="83">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4845" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalatest/scalatest_2.11/ivy-2.2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalatest_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1438876" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar"/>
+					</artifact>
+					<artifact name="scalatest_2.11" type="jar" ext="jar" status="no" details="" size="7185789" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalatest/scalatest_2.11/jars/scalatest_2.11-2.2.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject.extensions" name="guice-multibindings">
+			<revision name="4.0" status="release" pubdate="20150429020500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<metadata-artifact status="no" details="" size="5491" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject.extensions/guice-multibindings/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guice-multibindings" type="jar" ext="jar" status="no" details="" size="81388" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject.extensions/guice-multibindings/jars/guice-multibindings-4.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.jar"/>
+					</artifact>
+					<artifact name="guice-multibindings" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43824" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject.extensions/guice-multibindings/srcs/guice-multibindings-4.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
+			<revision name="4.0" status="release" pubdate="20150429020500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<metadata-artifact status="no" details="" size="5493" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guice-assistedinject" type="jar" ext="jar" status="no" details="" size="43425" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.jar"/>
+					</artifact>
+					<artifact name="guice-assistedinject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33987" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/srcs/guice-assistedinject-4.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject" name="guice">
+			<revision name="4.0" status="release" pubdate="20150429020300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<metadata-artifact status="no" details="" size="5760" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject/guice/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guice" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="305803" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject/guice/srcs/guice-4.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0-sources.jar"/>
+					</artifact>
+					<artifact name="guice" type="jar" ext="jar" status="no" details="" size="668235" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20080831171510" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2291" time="0" location="/Users/sauravkothari/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aopalliance" type="jar" ext="jar" status="no" details="" size="4467" time="0" location="/Users/sauravkothari/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+					</artifact>
+					<artifact name="aopalliance" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21188" time="0" location="/Users/sauravkothari/.ivy2/cache/aopalliance/aopalliance/srcs/aopalliance-1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091014050500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2380" time="0" location="/Users/sauravkothari/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/Users/sauravkothari/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+					<artifact name="javax.inject" type="jar" ext="jar" status="no" details="" size="2497" time="0" location="/Users/sauravkothari/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="16.0.1" status="release" pubdate="20140204041500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<metadata-artifact status="no" details="" size="5933" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.guava/guava/ivy-16.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="16.0.1" rev-constraint-default="16.0.1" rev-constraint-dynamic="16.0.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1261127" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.guava/guava/srcs/guava-16.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar"/>
+					</artifact>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2228009" time="0" location="/Users/sauravkothari/.ivy2/cache/com.google.guava/guava/jars/guava-16.0.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.4.4" status="release" pubdate="20141125073200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<metadata-artifact status="no" details="" size="5982" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42638" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.4.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="38597" time="0" location="/Users/sauravkothari/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.4.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2_2.11">
+			<revision name="2.3.12" status="release" pubdate="20140513070400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4212" time="0" location="/Users/sauravkothari/.ivy2/cache/org.specs2/specs2_2.11/ivy-2.3.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/specs2/specs2_2.11/2.3.12/specs2_2.11-2.3.12.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="specs2_2.11" type="jar" ext="jar" status="no" details="" size="8854334" time="0" location="/Users/sauravkothari/.ivy2/cache/org.specs2/specs2_2.11/jars/specs2_2.11-2.3.12.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/specs2/specs2_2.11/2.3.12/specs2_2.11-2.3.12.jar"/>
+					</artifact>
+					<artifact name="specs2_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="592008" time="0" location="/Users/sauravkothari/.ivy2/cache/org.specs2/specs2_2.11/srcs/specs2_2.11-2.3.12-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/specs2/specs2_2.11/2.3.12/specs2_2.11-2.3.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="classycle">
+			<revision name="1.4.3" status="release" pubdate="20140209173600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://classycle.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="102">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2779" time="0" location="/Users/sauravkothari/.ivy2/cache/org.specs2/classycle/ivy-1.4.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/specs2/classycle/1.4.3/classycle-1.4.3.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.4.3" rev-constraint-default="1.4.3" rev-constraint-dynamic="1.4.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="classycle" type="jar" ext="jar" status="no" details="" size="111466" time="0" location="/Users/sauravkothari/.ivy2/cache/org.specs2/classycle/jars/classycle-1.4.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/specs2/classycle/1.4.3/classycle-1.4.3.jar"/>
+					</artifact>
+					<artifact name="classycle" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="133487" time="0" location="/Users/sauravkothari/.ivy2/cache/org.specs2/classycle/srcs/classycle-1.4.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/specs2/classycle/1.4.3/classycle-1.4.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.11" status="release" pubdate="20121115005120" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="101">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2771" time="0" location="/Users/sauravkothari/.ivy2/cache/junit/junit/ivy-4.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/junit/junit/4.11/junit-4.11.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.11" rev-constraint-default="4.11" rev-constraint-dynamic="4.11" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="151329" time="0" location="/Users/sauravkothari/.ivy2/cache/junit/junit/srcs/junit-4.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/junit/junit/4.11/junit-4.11-sources.jar"/>
+					</artifact>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="245039" time="0" location="/Users/sauravkothari/.ivy2/cache/junit/junit/jars/junit-4.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/junit/junit/4.11/junit-4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120710023802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="98">
+				<metadata-artifact status="no" details="" size="2397" time="0" location="/Users/sauravkothari/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32624" time="0" location="/Users/sauravkothari/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+					</artifact>
+					<artifact name="hamcrest-core" type="jar" ext="jar" status="no" details="" size="45024" time="0" location="/Users/sauravkothari/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalacheck" name="scalacheck_2.11">
+			<revision name="1.11.3" status="release" pubdate="20140417024700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="96">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2841" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalacheck/scalacheck_2.11/ivy-1.11.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.11.3/scalacheck_2.11-1.11.3.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalacheck_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="36227" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalacheck/scalacheck_2.11/srcs/scalacheck_2.11-1.11.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.11.3/scalacheck_2.11-1.11.3-sources.jar"/>
+					</artifact>
+					<artifact name="scalacheck_2.11" type="jar" ext="jar" status="no" details="" size="864403" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.11.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.11.3/scalacheck_2.11-1.11.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20130629041435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="97">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2589" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="test-interface" type="jar" ext="jar" status="no" details="" size="14755" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"/>
+					</artifact>
+					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18792" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-concurrent_2.11">
+			<revision name="7.0.6" status="release" pubdate="20140417204200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="94">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2830" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/ivy-7.0.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaz/scalaz-concurrent_2.11/7.0.6/scalaz-concurrent_2.11-7.0.6.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="7.0.6" rev-constraint-default="7.0.6" rev-constraint-dynamic="7.0.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalaz-concurrent_2.11" type="jar" ext="jar" status="no" details="" size="308386" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/jars/scalaz-concurrent_2.11-7.0.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-concurrent_2.11/7.0.6/scalaz-concurrent_2.11-7.0.6.jar"/>
+					</artifact>
+					<artifact name="scalaz-concurrent_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17782" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/srcs/scalaz-concurrent_2.11-7.0.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-concurrent_2.11/7.0.6/scalaz-concurrent_2.11-7.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-effect_2.11">
+			<revision name="7.0.6" status="release" pubdate="20140417204200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="95">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2671" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalaz/scalaz-effect_2.11/ivy-7.0.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.11/7.0.6/scalaz-effect_2.11-7.0.6.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="7.0.6" rev-constraint-default="7.0.6" rev-constraint-dynamic="7.0.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalaz-effect_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21799" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalaz/scalaz-effect_2.11/srcs/scalaz-effect_2.11-7.0.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.11/7.0.6/scalaz-effect_2.11-7.0.6-sources.jar"/>
+					</artifact>
+					<artifact name="scalaz-effect_2.11" type="jar" ext="jar" status="no" details="" size="418683" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalaz/scalaz-effect_2.11/jars/scalaz-effect_2.11-7.0.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.11/7.0.6/scalaz-effect_2.11-7.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.11">
+			<revision name="7.0.6" status="release" pubdate="20140417204200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2845" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalaz/scalaz-core_2.11/ivy-7.0.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaz/scalaz-core_2.11/7.0.6/scalaz-core_2.11-7.0.6.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="7.0.6" rev-constraint-default="7.0.6" rev-constraint-dynamic="7.0.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.11" type="jar" ext="jar" status="no" details="" size="8962001" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalaz/scalaz-core_2.11/jars/scalaz-core_2.11-7.0.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-core_2.11/7.0.6/scalaz-core_2.11-7.0.6.jar"/>
+					</artifact>
+					<artifact name="scalaz-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="282290" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scalaz/scalaz-core_2.11/srcs/scalaz-core_2.11-7.0.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-core_2.11/7.0.6/scalaz-core_2.11-7.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.pegdown" name="pegdown">
+			<revision name="1.2.1" status="release" pubdate="20121213013239" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pegdown.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="86">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2787" time="0" location="/Users/sauravkothari/.ivy2/cache/org.pegdown/pegdown/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/pegdown/pegdown/1.2.1/pegdown-1.2.1.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="pegdown" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47838" time="0" location="/Users/sauravkothari/.ivy2/cache/org.pegdown/pegdown/srcs/pegdown-1.2.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/pegdown/pegdown/1.2.1/pegdown-1.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="pegdown" type="jar" ext="jar" status="no" details="" size="58609" time="0" location="/Users/sauravkothari/.ivy2/cache/org.pegdown/pegdown/jars/pegdown-1.2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/pegdown/pegdown/1.2.1/pegdown-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-java">
+			<revision name="1.1.4" status="release" pubdate="20121127215659" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="87">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3358" time="0" location="/Users/sauravkothari/.ivy2/cache/org.parboiled/parboiled-java/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/parboiled/parboiled-java/1.1.4/parboiled-java-1.1.4.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="parboiled-java" type="jar" ext="jar" status="no" details="" size="73180" time="0" location="/Users/sauravkothari/.ivy2/cache/org.parboiled/parboiled-java/jars/parboiled-java-1.1.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-java/1.1.4/parboiled-java-1.1.4.jar"/>
+					</artifact>
+					<artifact name="parboiled-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="72597" time="0" location="/Users/sauravkothari/.ivy2/cache/org.parboiled/parboiled-java/srcs/parboiled-java-1.1.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-java/1.1.4/parboiled-java-1.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-util">
+			<revision name="4.1" status="release" pubdate="20121014210858" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="92">
+				<metadata-artifact status="no" details="" size="4380" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm-util/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm-util" type="jar" ext="jar" status="no" details="" size="37599" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/ow2/asm/asm-util/4.1/asm-util-4.1.jar"/>
+					</artifact>
+					<artifact name="asm-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm-util/srcs/asm-util-4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/ow2/asm/asm-util/4.1/asm-util-4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-analysis">
+			<revision name="4.1" status="release" pubdate="20121014210802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="91">
+				<metadata-artifact status="no" details="" size="4388" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm-analysis" type="jar" ext="jar" status="no" details="" size="19812" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.jar"/>
+					</artifact>
+					<artifact name="asm-analysis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm-analysis/srcs/asm-analysis-4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-tree">
+			<revision name="4.1" status="release" pubdate="20121014210839" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="90">
+				<metadata-artifact status="no" details="" size="4375" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm-tree/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm-tree" type="jar" ext="jar" status="no" details="" size="22162" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.jar"/>
+					</artifact>
+					<artifact name="asm-tree" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm-tree/srcs/asm-tree-4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/ow2/asm/asm-tree/4.1/asm-tree-4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="4.1" status="release" pubdate="20121014210744" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="89">
+				<metadata-artifact status="no" details="" size="3744" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/ow2/asm/asm/4.1/asm-4.1.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="47359" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/ow2/asm/asm/4.1/asm-4.1.jar"/>
+					</artifact>
+					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="/Users/sauravkothari/.ivy2/cache/org.ow2.asm/asm/srcs/asm-4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/ow2/asm/asm/4.1/asm-4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.4" status="release" pubdate="20121127215716" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2669" time="0" location="/Users/sauravkothari/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.4/parboiled-core-1.1.4.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="165627" time="0" location="/Users/sauravkothari/.ivy2/cache/org.parboiled/parboiled-core/srcs/parboiled-core-1.1.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.4/parboiled-core-1.1.4-sources.jar"/>
+					</artifact>
+					<artifact name="parboiled-core" type="jar" ext="jar" status="no" details="" size="184943" time="0" location="/Users/sauravkothari/.ivy2/cache/org.parboiled/parboiled-core/jars/parboiled-core-1.1.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.4/parboiled-core-1.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.11.0" status="release" pubdate="20140416144400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="85">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3131" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.0/scala-compiler-2.11.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="13655547" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.0/scala-compiler-2.11.0.jar"/>
+					</artifact>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2077837" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.11.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.0/scala-compiler-2.11.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-core">
+			<revision name="1.9.5" status="release" pubdate="20121213013708" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mockito.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="99">
+				<license name="The MIT License" url="http://code.google.com/p/mockito/wiki/License"/>
+				<metadata-artifact status="no" details="" size="2668" time="0" location="/Users/sauravkothari/.ivy2/cache/org.mockito/mockito-core/ivy-1.9.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.9.5" rev-constraint-default="1.9.5" rev-constraint-dynamic="1.9.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="mockito-core" type="jar" ext="jar" status="no" details="" size="1500011" time="0" location="/Users/sauravkothari/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-1.9.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar"/>
+					</artifact>
+					<artifact name="mockito-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="723074" time="0" location="/Users/sauravkothari/.ivy2/cache/org.mockito/mockito-core/srcs/mockito-core-1.9.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="1.0" status="release" pubdate="20121213015936" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.googlecode.com/svn/docs/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="100">
+				<license name="MIT License" url="http://objenesis.googlecode.com/svn/docs/license.html"/>
+				<metadata-artifact status="no" details="" size="2392" time="0" location="/Users/sauravkothari/.ivy2/cache/org.objenesis/objenesis/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/objenesis/objenesis/1.0/objenesis-1.0.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="28569" time="0" location="/Users/sauravkothari/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/objenesis/objenesis/1.0/objenesis-1.0.jar"/>
+					</artifact>
+					<artifact name="objenesis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21547" time="0" location="/Users/sauravkothari/.ivy2/cache/org.objenesis/objenesis/srcs/objenesis-1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/objenesis/objenesis/1.0/objenesis-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150803213311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="default" name="fitman$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/Users/sauravkothari/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
